@@ -1,0 +1,152 @@
+
+*{
+    padding: 0 0;
+    margin: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.vungchua{
+    width: 80%;
+    
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-image{
+    width: 100%;
+}
+.img-vienanh{
+    border-radius: 12px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.donloi{
+    clear:both;
+    float: none;
+}
+.logo{
+    
+  
+    width: 10%;
+    float: left;
+}
+.thanhdh{
+    line-height: 60px;
+   
+}
+
+
+.thanhdh ul{
+    list-style-type: none;
+}
+.thanhdh ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    
+}
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.button{
+    padding: 1%;
+    border: none;
+    background-color: yellowgreen;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.button:hover{
+    background-color:orange
+}
+.float-chua{
+    position: relative;  
+}
+.float-text{
+      position: absolute;
+      bottom: 50px ;
+      left: 40%;
+}
+.text-white{
+    color: white;
+}
+/*css for search*/
+.search{
+    background-image: url(./image/doan1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7% 0;
+    margin: 0 1%;
+    
+}
+.search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    border: none;
+    border-radius: 6px;
+}
+
+
+/*phần doan thamkhao*/
+.de{
+    font-size: 1rem;
+    color:#535c68 ;
+    margin-bottom: 2%;
+}
+.Food{
+    padding: 6% 0 ;
+}
+.box{
+ 
+    width: 27% ;
+    float: left;
+    margin: 3%;
+}
+/*phan menu*/
+.menu{
+    background-color: rgb(158, 157, 157);
+    padding: 4% 0;
+    margin: 0 1%;
+}
+.menu-box{
+    
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 16px ;    
+}
+.fanh{
+    width: 20%;
+    float: left;
+}
+.ften{
+    width: 70%;
+    float: left;
+    margin-left:7% ;
+}
+.f-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.f-tt{
+    font-size: 1rem;
+    color: #95afc0;
+}
+/*phan lien ket*/
+.links ul{
+    list-style-type: none;
+}
+.links ul li{
+    display: inline;
+    padding: 1%;
+
+}
